@@ -19,18 +19,22 @@
 
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
-  color: white;
 }
 
-body {
-  //Gradient provided by @_ighosh at uiGradients.com
-  background: #642B73;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-.navbar {
+.navbar, .home-callout {
   background: #606c88;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.navbar {
+  border: none;
+}
+
+.home-callout {
+  margin-top: -20px;
+  padding-bottom: 50px;
+  color: white
+}
+
+
